@@ -1,6 +1,8 @@
 import json
 import math
-from schemas.tags_schema import TagSchema
+
+file = open('tag_slots.py')
+data2 = json.loads(file)
 
 def add_slots(data, data2):
     
