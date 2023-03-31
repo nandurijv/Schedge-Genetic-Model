@@ -1,4 +1,4 @@
-from geneticmodel.decode import decode
+from decode import decode
 def fitness(x,data,userID):
     y = x.copy()
     decoded_chromosome = decode(y,data,userID)

@@ -1,9 +1,9 @@
 import json
-from geneticmodel.initialise import initialise
-from geneticmodel.selection import roulette_wheel_selection
-from geneticmodel.fitness import fitness
-from geneticmodel.crossover import crossover
-from geneticmodel.average_fitness import average_fitness
+from initialise import initialise
+from selection import roulette_wheel_selection
+from fitness import fitness
+from crossover import crossover
+from average_fitness import average_fitness
 import math
 
 def generation(data):

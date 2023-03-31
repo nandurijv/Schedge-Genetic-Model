@@ -1,5 +1,5 @@
-from geneticmodel.flip import biased_coin_flip as flip
-from geneticmodel.mutation import mutation
+from flip import biased_coin_flip as flip
+from mutation import mutation
 import random
 
 def crossover(parent1, parent2, lchrom, nmutation, pmutation, pcross, ncross):

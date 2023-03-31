@@ -1,5 +1,5 @@
 import json
-from geneticmodel.activity_fitness import activity_fitness
+from activity_fitness import activity_fitness
 
 def decode(chromosome, data,userID):
     for i in range(len(chromosome)):

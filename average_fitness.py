@@ -1,4 +1,4 @@
-from geneticmodel.fitness import fitness
+from fitness import fitness
 def average_fitness(population,data2, userID):
     max = 0
     maxIndex = 0

@@ -1,7 +1,4 @@
-import random
-import math
-from geneticmodel.tag_slots import add_slots
-from schemas.tags_schema import TagSchema
+from tag_slots import add_slots
 import json
 def activity_fitness(activity, alloted_slot,data,userID):
     
