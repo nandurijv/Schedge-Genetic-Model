@@ -6,8 +6,9 @@ It is an acronym for SCHEDule GEnerator.
 
 ## How Does It Work?
 
-Just update your tags.json and test.json files with necessory activities.
-RUN THE FOLLOWING COMMANDS:
+Just update your ```tags.json``` and ```test.json``` files with necessory activities.
+
+## Instructions
 
 ```bash
 python3 -m venv venv
